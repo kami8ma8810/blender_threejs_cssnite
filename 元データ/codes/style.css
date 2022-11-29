@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #212121;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  height: 250vh;
+}
+
+#render {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+#render canvas {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.title {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 6vw;
+  height: fit-content;
+  inset: 0;
+  line-height: 1.2;
+  margin: auto;
+  padding-bottom: 4vw;
+  position: absolute;
+}
+
+.title-three {
+  font-size: 12vw;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.section-inner {
+  margin: auto;
+  width: min(100%, 72ch);
+}
+
+.section-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.section-paragraph {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
